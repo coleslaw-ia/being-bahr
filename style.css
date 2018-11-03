@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+}
+h1 {
+  font-family: 'Bangers', cursive;
+  text-align: center;
+  font-size: 100px;
+  letter-spacing: 10px;
+  color: white;
+}
+.left-nav a {
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  border-bottom: 1px solid black;
+  font-size: 24px;
+}
+.left-nav a:hover{
+  background-color: white;
+  color: black;
+}
+.left-nav {
+  list-style: none;
+  background-color: yellow;
+  padding: 0;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}
+main > aside, main > section {
+  /* display: inline-block; */
+  float: left;
+  padding: 10px;
+  min-height: 600px;
+}
+main > aside {
+  width: 20%;
+}
+main > section {
+  width: 59%;
+}
+main img {
+  max-width: 100%;
+}
+main {background-color: orange}
+aside
+  {margin: 0; padding: 0;
+      }
+h2, h3, h4 {
+  font-family: 'Bangers', cursive;
+}
+h2 {
+  font-size: 72px;
+}
+h3 {
+  font-size: 60px;
+}
+h4 {
+  font-size: 40px;
+  color: lime;
+}
+header {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6c/Vegetable_Cart_in_Guntur.jpg");
+  margin: 0;
+  padding: 20px;
+  height: auto;
