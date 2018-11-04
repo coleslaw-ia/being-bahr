@@ -2,30 +2,30 @@
   box-sizing: border-box;
 }
 h1 {
-  font-family: 'Bangers', cursive;
+  font-family: 'Roboto Slab', serif;
   text-align: center;
   font-size: 100px;
-  letter-spacing: 10px;
-  color: white;
+  color: #F4F4F9;
 }
-.left-nav a {
+.left-nav a, .left-nav a:visited {
   text-decoration: none;
   padding: 10px;
   display: block;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #071013;
   font-size: 24px;
+  color: #F4F4F9;
 }
 .left-nav a:hover{
-  background-color: white;
-  color: black;
+  background-color: #8BE8CB;
+  color: #F4F4F9;
 }
 .left-nav {
   list-style: none;
-  background-color: yellow;
+  background-color: #7EA2AA;
   padding: 0;
 }
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
 }
 main > aside, main > section {
@@ -48,20 +48,31 @@ aside
   {margin: 0; padding: 0;
       }
 h2, h3, h4 {
-  font-family: 'Bangers', cursive;
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
 }
 h2 {
   font-size: 72px;
+  text-align: center;
 }
 h3 {
   font-size: 60px;
 }
 h4 {
-  font-size: 40px;
-  color: lime;
+  font-size: 32px;
+  color: #8BE8CB;
 }
 header {
+  float: left;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6c/Vegetable_Cart_in_Guntur.jpg");
-  margin: 0;
-  padding: 20px;
-  height: auto;
+  color: #071013;
+  width: 100%;
+}
+.recipe {
+  width: 49%;
+  float: left;
+  margin-right: 8px;
+}
+.recipe img {
+  width: 100%;
+}
